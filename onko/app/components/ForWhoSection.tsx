@@ -46,7 +46,7 @@ export function ForWhoSection() {
           <span className="inline-flex items-center rounded-full bg-yellow px-3 py-1 text-s font-semibold uppercase tracking-wide text-white ">
             Voor wie
           </span>
-          <h2 className="text-4xl font-normal leading-tight tracking-tight sm:text-5xl">
+          <h2 className="text-3xl font-normal leading-tight tracking-tight sm:text-5xl">
             Voor wie is de             <span className="bg-gradient-to-r from-orange-400 to-orange-400  bg-clip-text text-transparent font-black">
               Stap3
             </span> App gemaakt?
