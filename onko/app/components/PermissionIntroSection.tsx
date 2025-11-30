@@ -14,7 +14,7 @@ export function PermissionIntroSection() {
 
           <h2 className="mt-4 text-3xl font-normal leading-tight tracking-tight sm:text-4xl md:text-5xl">
             Je mag {""}
-            <span className="bg-gradient-to-r from-orange-400 font-black to-orange-400  bg-clip-text text-transparent">vandaag kiezen voor gemak </span>— dat maakt je niet minder ondernemer.
+            <span className="bg-gradient-to-r from-orange-400 font-black to-orange-400  bg-clip-text text-transparent">kiezen voor gemak </span>— dat maakt je niet minder ondernemer.
           </h2>
 
           {/* <p className="text-lg font-bold leading-relaxed text-slate-700">
