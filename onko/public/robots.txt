@@ -1,4 +1,8 @@
+# --- Algemene regels (Google & alle andere bots)
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /studio/
 
-Sitemap: https://jouwdomein.nl/sitemap.xml
+# --- Sitemap
+Sitemap: https://stap3.nl/sitemap.xml
