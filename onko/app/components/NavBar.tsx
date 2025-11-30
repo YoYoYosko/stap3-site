@@ -89,7 +89,7 @@ export function NavBar() {
             </a>
           ))}
           <a
-            href="#early-access"
+            href="/#early-access"
             onClick={() => handleCtaClick("desktop")}
             className="rounded-lg bg-amber-400 px-4 py-2 text-sm font-semibold text-slate-950 shadow-md shadow-amber-400/20 transition hover:bg-amber-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
           >
