@@ -30,7 +30,6 @@ export function ForWhoSection() {
             alt=""
             fill
             loading="lazy"
-            priority={index === 0}
             className={`object-cover transition-opacity duration-[1500ms] ease-in-out ${
               index === activeIndex ? "opacity-100" : "opacity-0"
             }`}

@@ -61,7 +61,7 @@ export default function RootLayout({
       >
         <GA />
         <NavBar />
-        {children}
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
