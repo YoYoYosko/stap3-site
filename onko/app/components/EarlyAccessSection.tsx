@@ -150,6 +150,7 @@ export function EarlyAccessSection() {
           alt="stickman pointing"
           width={650}
           height={850}
+          loading="lazy"
           className="object-contain"
         />
       </div>

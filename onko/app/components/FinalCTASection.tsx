@@ -17,6 +17,7 @@ export function FinalCTASection() {
           alt="stickman pointing"
           width={550}
           height={850}
+          loading="lazy"
           className="object-contain"
         />
       </div>
@@ -29,6 +30,7 @@ export function FinalCTASection() {
           alt="sun"
           width={550}
           height={850}
+          loading="lazy"
           className="object-contain"
         />
       </div>

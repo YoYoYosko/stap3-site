@@ -17,6 +17,7 @@ export function SolutionPillars() {
           alt=""
           width={600}
           height={600}
+          loading="lazy"
           className="object-contain"
         />
       </div>
@@ -113,6 +114,7 @@ function PillarCard({ icon, title, subtitle, points, color }: PillarCardProps) {
           alt={title}
           width={50}
           height={50}
+          loading="lazy"
           className="object-contain shrink-0"
         />
 

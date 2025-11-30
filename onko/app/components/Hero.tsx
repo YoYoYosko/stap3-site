@@ -17,6 +17,7 @@ export function Hero() {
           fill
           priority
           className="object-cover"
+          sizes="100vw"
         />
         {/* Lichte overlay voor leesbaarheid */}
         <div className="absolute inset-0 bg-white/80 backdrop-blur-[1px]" />
