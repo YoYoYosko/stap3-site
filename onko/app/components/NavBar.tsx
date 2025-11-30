@@ -126,7 +126,7 @@ export function NavBar() {
               </a>
             ))}
             <a
-              href="#early-access"
+              href="/#early-access"
               onClick={() => {
                 handleCtaClick("mobile");
                 setOpen(false);
