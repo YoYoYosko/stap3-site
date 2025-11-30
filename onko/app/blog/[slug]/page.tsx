@@ -204,11 +204,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             )}
           </div>
 
-          {post.excerpt && (
-            <p className="text-sm md:text-base text-slate-600 max-w-2xl">
-              {post.excerpt}
-            </p>
-          )}
+
         </header>
 
         {/* image */}
