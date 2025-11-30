@@ -229,14 +229,15 @@ export function EarlyAccessSection() {
 
 <button
   type="button"
-  onClick={() =>
+  onClick={() => {
     trackEvent("plan_click", {
       plan_name: plan.name,
       plan_price: plan.price,
       plan_type: plan.highlight ? "highlight" : "regular",
       location: "pricing_section",
-    })
-  }
+    });
+    handleOpenModal(plan.name);
+  }}
   className={`mt-6 w-full rounded-xl px-4 py-2.5 text-sm font-semibold shadow-sm transition ${
     plan.highlight
       ? "bg-green text-white shadow-slate-900/25 hover:bg-slate-800"
@@ -245,6 +246,7 @@ export function EarlyAccessSection() {
 >
   {plan.cta}
 </button>
+
 
               <p className="mt-3 text-[11px] text-slate-500">
                 Maandelijks opzegbaar. Geen kleine lettertjes.
