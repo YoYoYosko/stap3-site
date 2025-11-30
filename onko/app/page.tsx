@@ -19,7 +19,6 @@ export default function Page() {
       
       <Hero />
       <PainSection />
-      <PerceptionShiftSection />
       <SolutionPillars />
       <ForWhoSection />
 
