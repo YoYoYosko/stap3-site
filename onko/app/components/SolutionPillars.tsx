@@ -26,7 +26,7 @@ export function SolutionPillars() {
         {/* HEADER */}
         <div className="max-w-3xl space-y-4">
           <span className="inline-flex items-center rounded-full bg-white px-3 py-1 text-s font-semibold uppercase tracking-wide t-orange">
-            De oplossing
+            Onze oplossing
           </span>
 
           <h2 className="text-3xl font-normal leading-tight tracking-tight sm:text-4xl md:text-5xl text-white">
@@ -47,7 +47,7 @@ export function SolutionPillars() {
           <PillarCard
             icon="/ai-research.png"
             color="emerald"
-            title="Slimme Assistent"
+            title="De Slimme Assistent"
             subtitle="Altijd iemand om het aan te vragen"
             points={[
               "Stel elke vraag over ondernemen in Nederland.",
@@ -59,7 +59,7 @@ export function SolutionPillars() {
           <PillarCard
             icon="/regelradar.png"
             color="sky"
-            title="RegelRadar"
+            title="De RegelRadar"
             subtitle="Altijd weten wat er op je afkomt"
             points={[
               "Zie welke regels en wijzigingen jou echt raken.",
@@ -71,7 +71,7 @@ export function SolutionPillars() {
           <PillarCard
             icon="/marketing-kompas.png"
             color="amber"
-            title="Marketing Kompas"
+            title="Het Marketing Kompas"
             subtitle="Zichtbaar blijven zonder gedoe"
             points={[
               "AI schrijft social posts en teksten voor je.",

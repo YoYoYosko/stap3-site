@@ -8,6 +8,9 @@ import { HowItWorksSection } from "./components/HowItWorksSection";
 import { EarlyAccessSection } from "./components/EarlyAccessSection";
 import { FinalCTASection } from "./components/FinalCTASection";
 import { FAQSection } from "./components/FAQSection";
+import { PerceptionShiftSection } from "./components/PerceptionShiftSection";
+import { SafenessContextSection } from "./components/SafenessContextSection";
+import { PermissionIntroSection } from "./components/PermissionIntroSection";
 
 
 export default function Page() {
@@ -16,11 +19,13 @@ export default function Page() {
       
       <Hero />
       <PainSection />
+      <PerceptionShiftSection />
       <SolutionPillars />
       <ForWhoSection />
 
       
       <HowItWorksSection />
+      <PermissionIntroSection />
       <EarlyAccessSection />
       <FAQSection />
       <FinalCTASection />

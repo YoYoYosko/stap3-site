@@ -42,10 +42,10 @@ export function FinalCTASection() {
           </div>
 
           <h2 className="text-3xl font-normal leading-tight tracking-tight sm:text-4xl md:text-5xl text-white">
-            Je mag jezelf{" "}
+            Maak het jezelf{" "}
             <span className="bg-gradient-to-r from-orange-600 to-orange-600 bg-clip-text text-transparent font-black">
-              het makkelijker maken.
-            </span>
+              makkelijker
+            </span>, omdat het kan.
           </h2>
 
           <p className="text-base text-white sm:text-lg max-w-xl mx-auto font-bold">
