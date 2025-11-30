@@ -26,7 +26,7 @@ export function FinalCTASection() {
       <div className="pointer-events-none absolute right-0 bottom-80 z-0
                       max-[1379px]:opacity-40 min-[1380px]:opacity-100">
         <Image
-          src="/sun.png"
+          src="/Sun.png"
           alt="sun"
           width={550}
           height={850}
