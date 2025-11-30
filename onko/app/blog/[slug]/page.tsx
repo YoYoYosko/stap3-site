@@ -6,6 +6,7 @@ import { PortableText, PortableTextComponents } from "@portabletext/react";
 import { sanityClient } from "@/lib/sanity.client";
 import { Container } from "@/app/components/Container";
 import { ShareButtons } from "../../components/ShareButtons";
+export const revalidate = 60;
 
 type BlogPost = {
   _id: string;
