@@ -17,11 +17,36 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Stap3 - Je slimme Ondernemersassistent",
-  description: "Stap3 is je slimme assistent voor regels, geldzaken en zichtbaarheid. Speciaal voor Nederlandse zzp’ers en kleine ondernemers die minder willen ploeteren en meer willen ondernemen.",
+  description:
+    "Stap3 is je slimme assistent voor regels, geldzaken en zichtbaarheid. Speciaal voor Nederlandse zzp’ers en kleine ondernemers die minder willen ploeteren en meer willen ondernemen.",
   icons: {
-    icon: "/favicon.png", // <-- hier jouw favicon
+    icon: "/favicon.png",
+  },
+  openGraph: {
+    title: "Stap3 - Je slimme Ondernemersassistent",
+    description:
+      "Stap3 helpt Nederlandse zzp’ers met regels, geldzaken, zichtbaarheid en slimme tools.",
+    url: "https://www.stap3.nl",
+    siteName: "Stap3",
+    images: [
+      {
+        url: "/og-image.png",   // <- deze moet je zelf toevoegen in /public/
+        width: 1200,
+        height: 630,
+        alt: "Stap3 - Je slimme Ondernemersassistent",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Stap3 - Je slimme Ondernemersassistent",
+    description:
+      "Stap3 helpt Nederlandse zzp’ers met regels, geldzaken, zichtbaarheid en slimme tools.",
+    images: ["/og-image.png"], // <- dezelfde afbeelding
   },
 };
+
 
 export default function RootLayout({
   children,
