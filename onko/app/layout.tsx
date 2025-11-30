@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: "Stap3",
     images: [
       {
-        url: "/og-image.png",   // <- deze moet je zelf toevoegen in /public/
+        url: "/og-image-s.png",   // <- deze moet je zelf toevoegen in /public/
         width: 1200,
         height: 630,
         alt: "Stap3 - Je slimme Ondernemersassistent",
