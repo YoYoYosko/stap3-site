@@ -40,7 +40,7 @@ export function Hero() {
           </h1>
 
           <p className="text-base text-slate-700 sm:text-lg">
-            Stap3 is je slimme assistent voor regels, geldzaken en
+            Stap3 is je slimme AI-assistent voor regels, geldzaken en
             zichtbaarheid. Speciaal voor Nederlandse zzp’ers en kleine
             ondernemers die minder willen ploeteren en meer willen ondernemen.
           </p>

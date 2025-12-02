@@ -69,7 +69,7 @@ export function NavBar() {
             priority
           />
           <span className="text-[11px] font-medium text-slate-900 leading-none">
-            Je slimme ondernemersassistent
+            De AI Assistent voor Ondernemers
           </span>
         </Link>
 

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description:
     "Stap3 is de slimme AI-assistent voor ondernemers en zzp’ers. Krijg helder antwoord op lastige vragen, laat automatisch taken en agendapunten aanmaken, ontvang actuele regelgeving en genereer marketingcontent op maat.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon.ico",
   },
   openGraph: {
     title: "AI Assistent voor Ondernemers – Slimme Zakelijke Adviseur | Stap3",
