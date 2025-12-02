@@ -259,7 +259,7 @@ transform: translateX(calc(-100% - 2px));
   transition: color 0.3s ease;
 }
 
-/* Gele balk die inschuift */
+
 .btn-hov-t::before {
   content: "";
   position: absolute;
