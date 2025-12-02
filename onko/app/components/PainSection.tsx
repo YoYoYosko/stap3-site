@@ -15,6 +15,7 @@ export function PainSection() {
                 alt="Ondernemer zoekt naar antwoorden"
                 fill
                 className="object-cover"
+                loading="lazy"
               />
             </div>
           </div>

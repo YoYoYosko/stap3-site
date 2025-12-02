@@ -16,16 +16,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Stap3 - Je slimme Ondernemersassistent",
+  title: "AI Assistent voor Ondernemers – Slimme Zakelijke Adviseur | Stap3",
   description:
-    "Stap3 is je slimme assistent voor regels, geldzaken en zichtbaarheid. Speciaal voor Nederlandse zzp’ers en kleine ondernemers die minder willen ploeteren en meer willen ondernemen.",
+    "Stap3 is de slimme AI-assistent voor ondernemers en zzp’ers. Krijg helder antwoord op lastige vragen, laat automatisch taken en agendapunten aanmaken, ontvang actuele regelgeving en genereer marketingcontent op maat.",
   icons: {
     icon: "/favicon.png",
   },
   openGraph: {
-    title: "Stap3 - Je slimme Ondernemersassistent",
+    title: "AI Assistent voor Ondernemers – Slimme Zakelijke Adviseur | Stap3",
     description:
-      "Stap3 helpt Nederlandse zzp’ers met regels, geldzaken, zichtbaarheid en slimme tools.",
+      "Stap3 is de slimme AI-assistent voor ondernemers en zzp’ers. Krijg helder antwoord op lastige vragen, laat automatisch taken en agendapunten aanmaken, ontvang actuele regelgeving en genereer marketingcontent op maat.",
     url: "https://www.stap3.nl",
     siteName: "Stap3",
     images: [
@@ -33,16 +33,16 @@ export const metadata: Metadata = {
         url: "/og-image-s.png",   // <- deze moet je zelf toevoegen in /public/
         width: 1200,
         height: 630,
-        alt: "Stap3 - Je slimme Ondernemersassistent",
+        alt: "AI Assistent voor Ondernemers – Slimme Zakelijke Adviseur | Stap3",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Stap3 - Je slimme Ondernemersassistent",
+    title: "AI Assistent voor Ondernemers – Slimme Zakelijke Adviseur | Stap3",
     description:
-      "Stap3 helpt Nederlandse zzp’ers met regels, geldzaken, zichtbaarheid en slimme tools.",
+      "Stap3 is de slimme AI-assistent voor ondernemers en zzp’ers. Krijg helder antwoord op lastige vragen, laat automatisch taken en agendapunten aanmaken, ontvang actuele regelgeving en genereer marketingcontent op maat.",
     images: ["/og-image.png"], // <- dezelfde afbeelding
   },
 };
