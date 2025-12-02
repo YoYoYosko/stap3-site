@@ -265,7 +265,7 @@ transform: translateX(calc(-100% - 2px));
   position: absolute;
   inset: 0;
   background-color: black;
-  transform: translateX(-10%);
+transform: translateX(calc(-100% - 2px));
   transition: transform 0.35s ease-out;
   z-index: 0; /* onder de tekst */
 }
