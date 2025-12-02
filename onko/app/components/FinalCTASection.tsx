@@ -56,11 +56,13 @@ export function FinalCTASection() {
           </p>
 
           <div className="pt-2">
-            <a href="#early-access">
-              <button className="inline-flex items-center justify-center rounded-lg bg-orange px-8 py-3 text-sm font-semibold text-white shadow-lg shadow-amber-400/30 transition hover:bg-amber-300">
-                Ja, ik wil mijn eigen Stap3 ondernemersassistent
-              </button>
-            </a>
+<a
+  href="#early-access"
+  className="btn-hov-t inline-flex items-center justify-center rounded-lg px-6 py-3 text-sm font-semibold shadow-lg shadow-slate-900/20 transition"
+>
+  <span>Ja, ik wil mijn eigen Stap3 ondernemersassistent</span>
+</a>
+
             <p className="mt-3 text-xs text-slate-950 font-bold">
               Duurt ongeveer 30 seconden. Geen verplichtingen.
             </p>

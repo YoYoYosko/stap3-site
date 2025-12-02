@@ -46,8 +46,9 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-            <a href="#early-access" >
-              <button className="inline-flex items-center justify-center rounded-lg bg-yellow px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-slate-900/20 transition hover:bg-amber-300"
+<a
+  href="#early-access"
+  className="btn-hov inline-flex items-center justify-center rounded-lg px-6 py-3 text-sm font-semibold shadow-lg shadow-slate-900/20 transition"
   onClick={() =>
     trackEvent("cta_click", {
       location: "hero",
@@ -55,9 +56,10 @@ export function Hero() {
     })
   }
 >
-  Probeer gratis als vroege gebruiker
-</button>
+  <span>Activeer mijn ondernemersassistent</span>
 </a>
+
+
             <a href="/#hoe-het-werkt"><button className="text-sm font-semibold text-slate-900 underline-offset-4 hover:underline">
               Bekijk hoe het werkt
             </button></a>

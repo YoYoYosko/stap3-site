@@ -212,3 +212,76 @@ footer {
     @apply bg-background text-foreground;
   }
 }
+
+.btn-hov {
+  position: relative;
+  overflow: hidden;
+  background-color: #FFB900;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* Gele balk die inschuift */
+.btn-hov::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: black;
+transform: translateX(calc(-100% - 2px));
+  transition: transform 0.35s ease-out;
+  z-index: 0; /* onder de tekst */
+}
+
+/* Slide-in bij hover */
+.btn-hov:hover::before {
+  transform: translateX(0);
+}
+
+/* Optioneel: tekstkleur aanpassen op hover */
+.btn-hov:hover {
+  color: #FFB900; /* beter leesbaar op geel dan wit */
+}
+
+/* Tekst altijd boven de overlay houden */
+.btn-hov > span {
+  position: relative;
+  z-index: 1; /* boven ::before */
+}
+
+
+
+
+.btn-hov-t {
+  position: relative;
+  overflow: hidden;
+  background-color: #FF8327;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* Gele balk die inschuift */
+.btn-hov-t::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: black;
+  transform: translateX(-10%);
+  transition: transform 0.35s ease-out;
+  z-index: 0; /* onder de tekst */
+}
+
+/* Slide-in bij hover */
+.btn-hov-t:hover::before {
+  transform: translateX(0);
+}
+
+/* Optioneel: tekstkleur aanpassen op hover */
+.btn-hov-t:hover {
+  color: #FFB900; /* beter leesbaar op geel dan wit */
+}
+
+/* Tekst altijd boven de overlay houden */
+.btn-hov-t > span {
+  position: relative;
+  z-index: 1; /* boven ::before */
+}
